@@ -1,2 +1,6 @@
-# Telco_Costumer_Churn
-Project bersama tentang Telco Costumer Churn
+# PROJECT - TELCO COSTUMER CHURN PREDICTION
+ - Kresna Dwipayana Sindudharma H
+ - Dimas
+ 
+ Dataset :
+ Source : Kaggle
