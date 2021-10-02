@@ -12,7 +12,7 @@ by : PURWADHIKA JSDS - Scipy Team
  # Background
 
 Dalam bisnis, mendapatkan pelanggan merupakan tujuan utama perusahaan. Namun ada kala pelanggan memilih beralih dengan berbagai alasan, yang nanti akan berdampak pada perusahaan.
- Peralihan itu disebut Customer Churn. Sehingga perlu diperhatikan Churn Rate supaya memastikan retensi pelanggan pada suatu perusahaan tetap baik.
+ Peralihan itu disebut _Customer Churn_. Sehingga perlu diperhatikan _Churn Rate_ supaya memastikan retensi pelanggan pada suatu perusahaan tetap baik.
  
  Dalam proyek ini, kami memposisikan diri sebagai bagian dari tim Data Scientist pada sebuah perusahaan Telco di Indonesia.
  Kami ingin meneliti perilaku pelanggan dan memastikan pelanggan mana yang bertahan dan tidak. Kami ingin membantu tim Pemasaran dengan membuat pemetaan pelanggan, supaya tim Pemasaran dapat melakukan kegiatan pemasaran tepat sasaran. 
@@ -32,9 +32,9 @@ Dalam bisnis, mendapatkan pelanggan merupakan tujuan utama perusahaan. Namun ada
  Untuk mengatasi masalah tersebut, perusahaan memerlukan :
  - Pemetaan mengenai produk unggulan dan non-unggulannya untuk kedepannya dapat dioptimalisasikan pelayanannya 
  - Pemetaan pelanggan mana yang di prediksi beralih atau tidak beralih supaya tim marketing dapat menyesuaikan kegiatan pemasarannya dengan karakteristik pelanggan. 
- - Visualisasi dampak dari _customer churn terhadap keuangan perusahaan
+ - Visualisasi dampak dari _customer churn_ terhadap keuangan perusahaan
 
-Hasil yang diharapkan dari proyek ini adalah dapat menghasilkan sistem yang dapat mengklasifikasikan pelanggan yang berpotensi melakukan _churn dan pelanggan yang bertahan secara akurat dengan menggunakan pendekatan Machine Learning, sehingga dapat memberikan informasi pada stakeholder dan dapat dimanfaatkan untuk mencapai tujuan bisnis. 
+Hasil yang diharapkan dari proyek ini adalah dapat menghasilkan sistem yang dapat mengklasifikasikan pelanggan yang berpotensi melakukan _churn_ dan pelanggan yang bertahan secara akurat dengan menggunakan pendekatan Machine Learning, sehingga dapat memberikan informasi pada stakeholder dan dapat dimanfaatkan untuk mencapai tujuan bisnis. 
 
 ## 2. Business Objective 
 
@@ -45,7 +45,7 @@ Adapun terdapat beberapa tujuan bisnis yang ingin dicapai melalui proyek ini, ya
 
 ## 3. Data Requirements
  
- Dalam proyek ini, berdasarkan _problem definition yang telah didefinisikan , maka kami membutuhkan data sebagai fitur meliputi daftar pelanggan, perilaku pelanggan, karakteristik pelanggan,  total tagihan, DLL.
+ Dalam proyek ini, berdasarkan _problem definition_ yang telah didefinisikan , maka kami membutuhkan data sebagai fitur meliputi daftar pelanggan, perilaku pelanggan, karakteristik pelanggan,  total tagihan, DLL.
  
 ## 4. Analytic Approach
 
