@@ -34,7 +34,7 @@ Dalam bisnis, mendapatkan pelanggan merupakan tujuan utama perusahaan. Namun ada
  - Pemetaan pelanggan mana yang di prediksi beralih atau tidak beralih supaya tim marketing dapat menyesuaikan kegiatan pemasarannya dengan karakteristik pelanggan. 
  - Visualisasi dampak dari "customer churn' terhadap keuangan perusahaan
 
-Hasil yang diharapkan dari proyek ini adalah dapat menghasilkan sistem yang dapat mengklasifikasikan pelanggan yang berpotensi melakukan "churn" dan pelanggan yang bertahan secara akurat dengan menggunakan pendekatan Machine Learning, sehingga dapat memberikan informasi pada stakeholder dan dapat dimanfaatkan untuk mencapai tujuan bisnis. 
+Hasil yang diharapkan dari proyek ini adalah dapat menghasilkan sistem yang dapat mengklasifikasikan pelanggan yang berpotensi melakukan _churn_ dan pelanggan yang bertahan secara akurat dengan menggunakan pendekatan Machine Learning, sehingga dapat memberikan informasi pada stakeholder dan dapat dimanfaatkan untuk mencapai tujuan bisnis. 
 
 ## 2. Business Objective 
 
