@@ -14,7 +14,7 @@ by : PURWADHIKA JSDS - Scipy Team
 Dalam bisnis, mendapatkan pelanggan merupakan tujuan utama perusahaan. Namun ada kala pelanggan memilih beralih dengan berbagai alasan, yang nanti akan berdampak pada perusahaan.
  Peralihan itu disebut _Customer Churn_. Sehingga perlu diperhatikan _Churn Rate_ supaya memastikan retensi pelanggan pada suatu perusahaan tetap baik.
  
- Dalam proyek ini, kami memposisikan diri sebagai bagian dari tim Data Scientist pada sebuah perusahaan Telco di Indonesia.
+ Dalam proyek ini, kami memposisikan diri sebagai bagian dari tim Data Scientist pada sebuah perusahaan _Telco_ di Indonesia.
  Kami ingin meneliti perilaku pelanggan dan memastikan pelanggan mana yang bertahan dan tidak. Kami ingin membantu tim Pemasaran dengan membuat pemetaan pelanggan, supaya tim Pemasaran dapat melakukan kegiatan pemasaran tepat sasaran. 
  
  ---
@@ -45,13 +45,30 @@ Adapun terdapat beberapa tujuan bisnis yang ingin dicapai melalui proyek ini, ya
 
 ## 3. Data Requirements
  
- Dalam proyek ini, berdasarkan _problem definition_ yang telah didefinisikan , maka kami membutuhkan data sebagai fitur meliputi daftar pelanggan, perilaku pelanggan, karakteristik pelanggan,  total tagihan, DLL.
+Dalam proyek ini, berdasarkan _problem definition_ yang telah didefinisikan , maka kami membutuhkan data sebagai fitur meliputi daftar pelanggan, perilaku pelanggan, karakteristik pelanggan,  total tagihan, DLL.
  
 ## 4. Analytic Approach
 
+### Machine Learning Technique :
+Pada proyek ini, karena kami ingin memprediksi pelanggan mana yang akan memilih beralih atau bertahan , dan kami memiliki label yakni _Churn_ dan _Not churn_, sehingga hal ini dapat diatasi dengan metode _supervised learning_ yang fokus pada klasifikasi. Kami akan memberikan data pada model dengan algortima klasifikasi untuk dipelajari atau di _training_, yang hasilnya kami harap dapat membuat prediksi yang baik dan akurat untuk memprediksi pelanggan mana yang akan memilih beralih atau bertahan. 
+
+### Risk :
+Terdapat beberapa resiko yang dapat disebabkan kesalahan prediksi dari model, yakni :
+- Kesalahan proporsi prediksi pelanggan yang ditandai sebagai _Churn_ lebih besar dari yang ditandai _Not Churn_, sehingga kemungkinan perusahaan dapat berlebihan mengeluarkan anggaran promosi dan merugikan keuangan perusahaan karena memberikan benefit pada pelanggan yang sebenarnya memilih bertahan atau loyal.
+- Kebalikan dari poin pertama, Kesalahan proporsi prediksi pelanggan yang ditandai sebagai _Not Churn_ lebih besar dari yang ditandai _Churn_, sehingga perusahaan akan merasa pada posisi aman namun tidak menyadari bahwa pelanggan mulai meninggalkan perusahaan.
+
+### Performance Measure
+Metrik yang digunakan untuk mengukur kemampuan model dalam melakukan prediksi, yakni :
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- Median Absolute Error dan Koefisien Determinasi (R²).
+
 ## 5. Action
+Para _Stakeholder_ dapat memanfaatkan hasil prediksi untuk menentukan standar pelanggan loyal dan pelanggan tidak loyal.
 
 ## 6. Value
+Hasil atau nilai tambah yang dapat diciptakan dari proyek ini yakni adanya peningkatan dalam proses penentuan keputusan dalam kegiatan pemasaran, dan acuan dalam standar penetuan pelanggan diklasifikasikan sebagai pelanggan loyal, yang mana pelanggan loyal adalah sumber terbesar keuntungan perusahaan, tidak hanya dampak baik pada keuangan tetapi juga pada citra perusahaan, sehingga perusahaan harus dapat mempertahankan retensi pelanggan dan terus membina hubungan baik dengan pelanggan, yang nanti dapat memaksimalkan keuntungan dan menurunkan kerugian.
 
 ---
 
