@@ -59,7 +59,6 @@ Terdapat beberapa resiko yang dapat disebabkan kesalahan prediksi dari model, ya
 
 ### Performance Measure
 Metrik yang digunakan untuk mengukur kemampuan model dalam melakukan prediksi, yakni :
-- Accuracy
 - Recall
 - Precision
 - F1 score
