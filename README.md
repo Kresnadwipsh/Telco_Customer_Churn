@@ -59,10 +59,10 @@ Terdapat beberapa resiko yang dapat disebabkan kesalahan prediksi dari model, ya
 
 ### Performance Measure
 Metrik yang digunakan untuk mengukur kemampuan model dalam melakukan prediksi, yakni :
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- Mean Absolute Error (MAE)
-- Median Absolute Error dan Koefisien Determinasi (R²).
+- Accuracy
+- Recall
+- Precision
+- F1 score
 
 ## 5. Action
 Para _Stakeholder_ dapat memanfaatkan hasil prediksi untuk menentukan standar pelanggan loyal dan pelanggan tidak loyal.
