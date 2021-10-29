@@ -102,13 +102,13 @@ Terdapat `7043` data observasi dengan `21` fitur dan `1` label (`Churn`)
 |21|	**Churn** | Menunjukkan apakah pelanggan churn atau tidak (Ya atau Tidak) | Kategorikal, Objek |
 <br>
 
-Selengkapnya --> [EDA - Data Preparation]()
+Selengkapnya --> [EDA - Data Preparation Notebook](https://github.com/Kresnadwipsh/Telco_Costumer_Churn/blob/main/EDA%20-%20Data%20Preparation.ipynb)
 
 ---
 
 # III. Modeling
 
-Selengkapnya --> [Model]()
+Selengkapnya --> [Model Notebook](https://github.com/Kresnadwipsh/Telco_Costumer_Churn/blob/main/Model.ipynb)
 
 ---
 
