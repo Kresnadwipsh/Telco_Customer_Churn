@@ -102,7 +102,7 @@ Terdapat `7043` data observasi dengan `21` fitur dan `1` label (`Churn`)
 |21|	**Churn** | Menunjukkan apakah pelanggan churn atau tidak (Ya atau Tidak) | Kategorikal, Objek |
 <br>
 
-Selengkapnya --> [EDA - Data Understanding]()
+Selengkapnya --> [EDA - Data Preparation]()
 
 ---
 
