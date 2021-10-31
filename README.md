@@ -1,10 +1,10 @@
 # TELCO COSTUMER CHURN PREDICTION
 
- Profile : Kresna Dwipayana Sindudharma H | [Email](mailto:kresnadwipsh@gmail.com) | [LinkedIn](https://www.linkedin.com/in/kresnadwipsh)
+ **_Profile_** : Kresna Dwipayana Sindudharma H | [Email](mailto:kresnadwipsh@gmail.com) | [LinkedIn](https://www.linkedin.com/in/kresnadwipsh)
  
- Dataset : WA_Fn-UseC_-Telco-Customer-Churn.csv
+ **_Dataset_** : WA_Fn-UseC_-Telco-Customer-Churn.csv
  
- Source :  [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
+ **_Source_** :  [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
  
  ---
  
@@ -102,13 +102,45 @@ Terdapat `7043` data observasi dengan `21` fitur dan `1` label (`Churn`)
 |21|	**Churn** | Menunjukkan apakah pelanggan churn atau tidak (Ya atau Tidak) | Kategorikal, Objek |
 <br>
 
-Selengkapnya --> [EDA - Data Preparation Notebook](https://github.com/Kresnadwipsh/Telco_Costumer_Churn/blob/main/EDA%20-%20Data%20Preparation.ipynb)
+*Selengkapnya --> [EDA - Data Preparation Notebook](https://github.com/Kresnadwipsh/Telco_Costumer_Churn/blob/main/EDA%20-%20Data%20Preparation.ipynb)
 
 ---
 
 # III. Modeling
 
-Selengkapnya --> [Model Notebook](https://github.com/Kresnadwipsh/Telco_Costumer_Churn/blob/main/Model.ipynb)
+### 1. Imbalance Classification
+<img src= "image/Churn.png" width="800" />
+
+Terdapat _imbalance classification_ yang cukup timpang, sehingga pada masalah ini saya fokus mengatasinya dengan menggunakan model yang memiliki parameter sendiri untuk menyeimbangkan kelas (class_weight='balanced'), yakni terdiri dari _Logistic Regression_ , _Decision Tree_, dan _Random Forest_.
+
+<br>
+
+### 2. Multicollinearity
+<img src= "image/Korelasi.png" width="600" />
+
+Terdapat gejala multikolinearitas antar fitur numerik yang cukup kuat, hal ini dapat di atasi dengan mereduksi fitur menjadi fitur baru yang lebih ringkas, pada kasus ini saya menggunakan _Principal Component Analysis_ atau PCA.
+
+<br>
+
+### 3. Base & Tune Models
+Selanjutnya melakukan prediksi dan setelahnya model di tuning dengan _RepeatedStratifiedKFold_ dan _GridSearchCV_ untuk mendapatkan parameter dan fitur terbaik sehingga dapat meningkatkan performa model.
+
+|__Model__|__Sebelum__|__Setelah__|
+| - | - | - |
+| Logistic Regression | 0.8025 | 0.7920 |
+| Decision Tree | 0.5054 | 0.4965 |
+| Random Forest | 0.4918 | 0.4867 |
+
+<br>
+    
+### 4. Confusion Matrix 
+Berdasarkan nilai _recall_, waktu performa model, dan kestabilan performa, _Logistic Regression_ adalah model terbaik, namun karena terjadi penurunan performa setelah di tuning, saya fokus terhadap model tanpa tuning.
+
+<img src= "image/Sebelum tuning.png" width="300" />
+
+<img src= "image/Setelah tuning.png" width="300" />
+
+*Selengkapnya --> [Model Notebook](https://github.com/Kresnadwipsh/Telco_Costumer_Churn/blob/main/Model.ipynb)
 
 ---
 
@@ -141,5 +173,7 @@ Selengkapnya --> [Model Notebook](https://github.com/Kresnadwipsh/Telco_Costumer
      - Perusahaan dapat fokus pada produk Internet Service dan Phone Service, karena kedua produk tersebut merupakan produk unggulan.
      - Kualitas sistem pembayaran harus ditingkatkan, harus mengutamakan proses automasi untuk memotong alur proses pembayaran yang tidak efisien dan tidak efektif.
 ---
+<br>
 
+Atas Perhatiannya, saya mengucapkan terima kasih   <img src= "https://cdn.shopify.com/s/files/1/1061/1924/products/18_1024x1024.png?v=1571606118" width="20" />
 
