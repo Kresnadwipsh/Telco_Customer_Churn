@@ -1,4 +1,4 @@
-# TELCO CuSToMER CHURN PREDICTION
+# TELCO CUSTOMER CHURN PREDICTION
 
  **_Profile_** : Kresna Dwipayana Sindudharma H | [Email](mailto:kresnadwipsh@gmail.com) | [LinkedIn](https://www.linkedin.com/in/kresnadwipsh)
  
